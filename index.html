@@ -119,8 +119,9 @@
 
 
         <!--------------------------course card start--------------------------------->
-        <section class="course-section container" id="courses">
-            <h1 class="text-center mb-3">Discover Our Popular <br> <span class="text-custom-primary">Courses</span></h1>
+        <section class="course-section container my-5" id="courses">
+            <h1 class="text-center fw-bold mb-3">Discover Our Popular <br> <span
+                    class="text-custom-primary">Courses</span></h1>
             <p class="text-center mb-5 text-muted">Here is our popular courses, you can check our course details here
                 and get ready for join us</p>
             <div class="course-container row gy-3">
@@ -177,7 +178,7 @@
                             <div class="col-12 col-md-8">
                                 <div class="card-body d-flex flex-column justify-content-between h-100">
                                     <div>
-                                        <h5 class="card-title">Javascript Crash Course</h5>
+                                        <h5 class="card-title">Javascript Basic To Advance</h5>
                                         <p class="card-text text-truncate">Crash Course & Life Time Accessable</p>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between mt-4">
@@ -203,7 +204,7 @@
                                         <p class="card-text text-truncate">Crash Course & Life Time Accessable</p>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between mt-4">
-                                        <p class="fs-5 fw-bold mb-0">Fee : 149$</p>
+                                        <p class="fs-5 fw-bold mb-0">Fee : 179$</p>
                                         <button class="btn btn-info">Purchase
                                         </button>
                                     </div>
@@ -225,7 +226,7 @@
                                         <p class="card-text text-truncate">Crash Course & Life Time Accessable</p>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between mt-4">
-                                        <p class="fs-5 fw-bold mb-0">Fee : 149$</p>
+                                        <p class="fs-5 fw-bold mb-0">Fee : 119$</p>
                                         <button class="btn btn-info">Purchase
                                         </button>
                                     </div>
@@ -241,13 +242,13 @@
                                 <img src="images/course/ui.png" class="img-fluid rounded" alt="...">
                             </div>
                             <div class="col-12 col-md-8">
-                                <div class="card-body d-flex flex-column justify-content-between h-100">
+                                <div class="card-body d-flex flex-column justify-content-between h-auto">
                                     <div>
-                                        <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                        <h5 class="card-title">Fundamental UI/UX Design</h5>
                                         <p class="card-text text-truncate">Crash Course & Life Time Accessable</p>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between mt-4">
-                                        <p class="fs-5 fw-bold mb-0">Fee : 149$</p>
+                                        <p class="fs-5 fw-bold mb-0">Fee : 219$</p>
                                         <button class="btn btn-info">Purchase
                                         </button>
                                     </div>
@@ -258,7 +259,7 @@
                 </div>
             </div>
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <button class="btn btn-custom-primary my-5">See More Courses <i class="bi bi-arrow-right"></i></button>
+                <button class="btn btn-info my-5">See More Courses</button>
             </div>
         </section>
 
@@ -278,7 +279,7 @@
                     </div>
                     <div class="col-md-6 col-lg-8 ">
                         <div class="card-body d-flex flex-column justify-content-center h-100">
-                            <h1 class="fs-1">Explore The <span class="text-custom-primary">Learning</span> Institute
+                            <h1 class="fs-1 fw-bold">Explore The Learning Institute
                             </h1>
                             <p class="card-text">You can check our review on facebook or youtube, or you can may check
                                 our student profile and there feedback on those course we teach . . .</p>
@@ -297,8 +298,7 @@
                                 </div>
                             </div>
                             <div>
-                                <button class="btn btn-custom-primary mb-5 my-lg-5">More About Us <i
-                                        class="bi bi-arrow-right"></i></button>
+                                <button class="btn btn-info mb-5 my-lg-5 px-3 py-2">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -312,24 +312,61 @@
 
         <!-------------------------- join section start--------------------------------->
 
-        <section class="container my-5">
-
-            <div class="bg-info d-flex flex-sm-column flex-md-column justify-content-around align-items-center">
-
-                <div>
-
-                    <h1 class="fw-bold text-white text-center">Ready to join?</h1>
-                    <p class="text-white">It is a long established fact that a reader will be distracted by the<br>
-                        readable content of a
-                        page when looking at its layout.</p>
+        <section class="mb-5" id="ready">
+            <div class="text-white container p-5 row mx-auto  rounded-3 bg-info">
+                <div class="col-12 col-lg-8 d-flex justify-content-center flex-column text-center text-lg-start">
+                    <h2>Ready to join?</h2>
+                    <p>What are you waiting for, join our community today and <br> get special discount every courses
+                    </p>
                 </div>
-                <div">
-                    <button class="btn btn-light">Register</button>
-            </div>
-            </div>
+                <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center flex-column text-black">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-whatever="@mdo"><i class="bi bi-person-plus"></i>
+                        Register Now</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="recipient-name"
+                                                placeholder="First Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="recipient-name"
+                                                placeholder="Last Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="recipient-name"
+                                                placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="recipient-name"
+                                                placeholder="Mobile No.">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                        Close</button>
+                                    <button type="button" class="btn btn-custom-primary">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
+                </div>
+            </div>
         </section>
+
 
         <!-------------------------- join section end--------------------------------->
 
@@ -481,7 +518,8 @@
         <!-------------------------- ask question section start------------------------------>
 
         <section class="container my-5">
-            <h1 class="text-center mb-3 mt-5">Frequently Asked <span class="text-custom-primary">Questions</span></h1>
+            <h1 class="text-center mb-3 mt-5 fw-bold">Frequently Asked <span
+                    class="text-custom-primary">Questions</span></h1>
             <p class="text-center mb-5 text-muted">Most common questions you may have to say us. We try give those
                 answer</p>
             <div class="accordion mx-auto" id="accordionPanelsStayOpenExample" style="max-width: 768px">
