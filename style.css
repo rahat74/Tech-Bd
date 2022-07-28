@@ -1,5 +1,5 @@
-footer {
-    background-color: #161616;
-    ;
-    max-height: 400px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
 }
